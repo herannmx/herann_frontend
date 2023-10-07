@@ -1,0 +1,62 @@
+{
+  "services": {
+    "title": {
+      "en": "Simplifying for you",
+      "es": "simplificando para ti"
+    },
+    "subtitle": {
+      "en": "",
+      "es": ""
+    },
+    "cards": {
+      "item_1": {
+        "title": {
+          "en": "Simplifying for you",
+          "es": "simplificando para ti"
+        },
+        "description": {
+          "en": "",
+          "es": ""
+        },
+        "icon": "",
+        "href": ""
+      },
+      "item_2": {
+        "title": {
+          "en": "Simplifying for you",
+          "es": "simplificando para ti"
+        },
+        "description": {
+          "en": "",
+          "es": ""
+        },
+        "icon": "",
+        "href": ""
+      },
+      "item_3": {
+        "title": {
+          "en": "Simplifying for you",
+          "es": "simplificando para ti"
+        },
+        "description": {
+          "en": "",
+          "es": ""
+        },
+        "icon": "",
+        "href": ""
+      },
+      "item_4": {
+        "title": {
+          "en": "Simplifying for you",
+          "es": "simplificando para ti"
+        },
+        "description": {
+          "en": "",
+          "es": ""
+        },
+        "icon": "",
+        "href": ""
+      }
+    }
+  }
+}
