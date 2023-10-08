@@ -1,0 +1,48 @@
+{
+  "footer": {
+    "top": {
+      "column_1": {
+        "logo_img": {
+          "img": "",
+          "href": ""
+        },
+        "description": {
+          "en": "",
+          "es": ""
+        },
+        "social_media": {
+          "item_1": {
+            "icon": "",
+            "href": ""
+          },
+          "item_2": {
+            "icon": "",
+            "href": ""
+          }
+        }
+      },
+      "column_2": {
+        "item_1": {
+          "title": {
+            "en": "",
+            "es": ""
+          },
+          "links": {
+            "link_1": {
+              "title": {
+                "en": "",
+                "es": ""
+              },
+              "icon": "",
+              "href": ""
+            }
+          }
+        }
+      }
+    },
+    "bottom": {
+      "en": "",
+      "es": ""
+    }
+  }
+}

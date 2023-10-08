@@ -1,0 +1,28 @@
+{
+  "about_us": {
+    "title": {
+      "en": "Simplifying for you",
+      "es": "simplificando para ti"
+    },
+    "subtitle": {
+      "en": "Simplifying for you",
+      "es": "simplificando para ti"
+    },
+    "description": {
+      "en": "",
+      "es": ""
+    },
+    "button": {
+      "title": {
+        "en": "Simplifying for you",
+        "es": "simplificando para ti"
+      },
+      "icon": "",
+      "href": ""
+    },
+    "about_img": {
+      "img_1": "",
+      "img_2": ""
+    }
+  }
+}

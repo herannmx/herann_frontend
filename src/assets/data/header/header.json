@@ -1,0 +1,29 @@
+{
+  "header": {
+    "item_1": {
+      "en": "home",
+      "es": "inicio",
+      "href": ""
+    },
+    "item_2": {
+      "en": "about us",
+      "es": "nosotros",
+      "href": ""
+    },
+    "item_3": {
+      "en": "services",
+      "es": "servicios",
+      "href": ""
+    },
+    "item_4": {
+      "en": "careers",
+      "es": "careras",
+      "href": ""
+    },
+    "item_5": {
+      "en": "contact",
+      "es": "contacto",
+      "href": ""
+    }
+  }
+}
