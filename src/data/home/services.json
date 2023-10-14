@@ -9,7 +9,7 @@
       "es": ""
     },
     "cards": {
-      "item_1": {
+      "item1": {
         "title": {
           "en": "Simplifying for you",
           "es": "simplificando para ti"
@@ -21,7 +21,7 @@
         "icon": "",
         "href": ""
       },
-      "item_2": {
+      "item2": {
         "title": {
           "en": "Simplifying for you",
           "es": "simplificando para ti"
@@ -33,7 +33,7 @@
         "icon": "",
         "href": ""
       },
-      "item_3": {
+      "item3": {
         "title": {
           "en": "Simplifying for you",
           "es": "simplificando para ti"
@@ -45,7 +45,7 @@
         "icon": "",
         "href": ""
       },
-      "item_4": {
+      "item4": {
         "title": {
           "en": "Simplifying for you",
           "es": "simplificando para ti"

@@ -1,8 +1,8 @@
 {
   "footer": {
     "top": {
-      "column_1": {
-        "logo_img": {
+      "column1": {
+        "logoImg": {
           "img": "",
           "href": ""
         },
@@ -10,25 +10,25 @@
           "en": "",
           "es": ""
         },
-        "social_media": {
-          "item_1": {
+        "socialMedia": {
+          "item1": {
             "icon": "",
             "href": ""
           },
-          "item_2": {
+          "item2": {
             "icon": "",
             "href": ""
           }
         }
       },
-      "column_2": {
-        "item_1": {
+      "column2": {
+        "item1": {
           "title": {
             "en": "",
             "es": ""
           },
           "links": {
-            "link_1": {
+            "link1": {
               "title": {
                 "en": "",
                 "es": ""
