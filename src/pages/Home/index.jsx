@@ -1,26 +1,30 @@
+import { useContext } from "react";
 import Header from "../../components/layout/Header";
+import { DataContext } from "../../context/data";
 
-const Home = () =>{
-    return(
-        <>
-            <Header/>
-            <div className="banner">asds</div>
-            <div className="container">
-                <div className="services">
-                    <div class="section-title text-center">
-                        <h3 class="sub-title">What we provide</h3>
-                        <h2 class="title">We provide truly prominent digital solutions.</h2>
-                    </div>
+const Home = () => {
+  const { data, loading } = useContext(DataContext);
 
-                    
-                    
-                </div>     
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
-            </div>
-                   
-        </>
-        
-    )
-}
+  return (
+    <>
+      <Header data={data.headerData} /> {/* Access data.headerData */}
+      <div className="banner">asds</div>
+      <div className="container">
+        <div className="services">
+          <div className="section-title text-center">
+            <h3 className="sub-title">What we provide</h3>
+            <h2 className="title">
+              We provide truly prominent digital solutions.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Home;

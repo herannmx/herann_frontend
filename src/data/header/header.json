@@ -1,26 +1,26 @@
 {
   "header": {
-    "item_1": {
+    "item1": {
       "en": "home",
       "es": "inicio",
       "href": ""
     },
-    "item_2": {
+    "item2": {
       "en": "about us",
       "es": "nosotros",
       "href": ""
     },
-    "item_3": {
+    "item3": {
       "en": "services",
       "es": "servicios",
       "href": ""
     },
-    "item_4": {
+    "item4": {
       "en": "careers",
       "es": "careras",
       "href": ""
     },
-    "item_5": {
+    "item5": {
       "en": "contact",
       "es": "contacto",
       "href": ""
