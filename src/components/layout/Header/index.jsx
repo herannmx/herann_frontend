@@ -2,32 +2,44 @@ import React from "react";
 
 const Header = ({data}) => {
   return (
-    <div className="container">
-      <header className="user-header">
-        <div className="logo">
-          <img src="/logo.png" alt="logo" />
-        </div>
-        <nav>
-          <ul>
-            <li className="">
-              <a href="#">{data.header.item1.en}</a>
-            </li>
-            <li className="">
-              <a href="#">About us</a>
-            </li>
-            <li className="">
-              <a href="#">Services</a>
-            </li>
-            <li className="">
-              <a href="#">Careers</a>
-            </li>
-            <li className="">
-              <a href="#">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <header id="header" className="user-header sticky">
+            <div className="container">
+                <div className="header-wrap">
+                    <div className="header-logo">
+                        <img src="/logo.png" alt="logo" />
+                    </div>
+                    <nav> 
+                        <ul>
+                            <li className="">
+                                <a href="#">
+                                    {data.header.item1.en}
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="#">
+                                    {data.header.item2.en}
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="#">
+                                    {data.header.item3.en}
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="#">
+                                    {data.header.item4.en}
+                                </a>
+                            </li>
+                            <li className="">
+                                <a href="#">
+                                    {data.header.item5.en}
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
   );
 };
 

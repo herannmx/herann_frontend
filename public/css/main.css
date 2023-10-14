@@ -361,6 +361,49 @@ template {
 *            LAYOUTS DIR
 * =========================================
 */
+.banner {
+  width: 100%;
+  height: 700px;
+  background-color: #F0F0F0;
+}
+
+.services {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 40px;
+}
+.services .service-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 20px;
+  padding-top: 20px;
+}
+@media (min-width: 400px) and (max-width: 768px) {
+  .services .service-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hcards {
+  display: flex;
+  min-height: 250px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  border-top: 10px solid #34448A;
+  box-shadow: 0px 43px 100px 0px rgba(0, 0, 0, 0.13);
+}
+
+.cta-wrap {
+  background: #e6f0fb;
+  max-width: 845px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 40px 125px;
+}
+
 .section-title h3 {
   font-size: 14px;
   font-family: "redHatExtraBold", sans-serif;
@@ -381,6 +424,21 @@ template {
 * =========================================
 */
 header.user-header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 999;
+}
+header.user-header.sticky {
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.07);
+  -webkit-animation: sticky 1s;
+  animation: sticky 1s;
+}
+header.user-header .header-wrap {
   display: flex;
   width: 100%;
   height: 80px;
@@ -388,47 +446,55 @@ header.user-header {
   justify-content: space-between;
   align-items: center;
 }
-header.user-header .logo {
+header.user-header .header-wrap .header-logo {
   width: 204px;
   height: 50px;
 }
-header.user-header .logo img {
+header.user-header .header-wrap .header-logo img {
   width: 100%;
   height: 100%;
 }
-header.user-header nav {
+header.user-header .header-wrap nav {
   display: flex;
   align-items: center;
 }
-header.user-header nav ul {
+header.user-header .header-wrap nav ul {
   display: flex;
   gap: 16px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-header.user-header nav ul li {
+header.user-header .header-wrap nav ul li {
   padding: 10px;
 }
-header.user-header nav ul li a {
+header.user-header .header-wrap nav ul li a {
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
   font-size: 15px;
   font-family: "redHatExtraBold", sans-serif;
 }
-header.user-header nav ul li a:focus {
+header.user-header .header-wrap nav ul li a:focus {
   color: #34448A;
 }
-
-.banner {
-  width: 100%;
-  height: 700px;
-  background-color: beige;
+header.user-header .header-wrap .header-meta {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  background-color: red;
 }
 
-.services {
-  width: 100%;
-  background-color: #FFFFFF;
-  padding: 40px;
+@media (max-width: 991.98px) {
+  header.user-header .header-wrap nav {
+    display: none;
+  }
+}
+@keyframes sticky {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }

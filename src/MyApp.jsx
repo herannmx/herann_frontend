@@ -6,7 +6,6 @@ const App = () =>{
             <AppRouter></AppRouter>
         </>
     )
-
 }
 
 export default App;

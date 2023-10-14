@@ -13,4 +13,16 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+
+  <script>
+    window.onscroll = function () {
+        const left = document.getElementById("header");
+
+        if (left.scrollTop > 80 || self.pageYOffset > 80) {
+            left.classList.add("sticky")
+        } else {
+            left.classList.remove("sticky");
+        }
+    } 
+  </script>
 </html>
